@@ -71,10 +71,18 @@
       @endcan
       
       
+      <li class="nav-item">
+        <a href="{{ route('firm.index') }}" class="nav-link">
+          <i class="nav-icon fas fa-list orange"></i>
+          <p>
+            {{ __('廠商資料管理') }}
+          </p>
+        </a>
+      </li>
+      
 
       <li class="nav-item">
-        <a href="#" class="nav-link" onclick="event.preventDefault();
-          document.getElementById('logout-form').submit();">
+        <a href="#" class="nav-link">
           <i class="nav-icon fas fa-power-off red"></i>
           <p>
             {{ __('Logout') }}

@@ -29,4 +29,8 @@ class Product extends Model
     {
         return $this->belongsToMany(Tag::class)->select(['name as text','id']);
     }
+
+    // public function firm() {
+    //     return $this->belongsToMany(Firm::class);
+    // }
 }
